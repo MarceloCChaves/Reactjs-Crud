@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: #222;
+}
+.main-header{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.create-form label{
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  width: 700px;
+  max-width: 100%;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+}
