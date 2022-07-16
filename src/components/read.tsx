@@ -49,6 +49,9 @@ export default function Read() {
   };
   return (
     <div>
+      {
+        APIData.length <= 0 && <h3 className="loading">Carregando produtos</h3>
+      }
       <Table className="table">
         <thead>
           <tr>
@@ -57,6 +60,7 @@ export default function Read() {
             <th>Quantidade</th>
             <th>Preço (Unidade)</th>
             <th>Unidade de medida</th>
+            <th>Apagar</th>
           </tr>
         </thead>
         <tbody>

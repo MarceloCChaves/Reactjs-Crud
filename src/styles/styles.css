@@ -17,15 +17,24 @@
   color: #fff;
 }
 
+.main-layout{
+  width: 700px;
+  max-width: 100%;
+}
+
 .create-form label{
   color: whitesmoke;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
-  width: 700px;
-  max-width: 100%;
 }
 
 .table {
   background: #fff;
   border-radius: 8px;
+}
+
+.loading {
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
 }

@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <div className="main">
         <h2 className="main-header">Estoque de produtos</h2>
-      <div>
+      <div className="main-layout">
         <Routes>
           <Route path='/' element={<Create />} />
           <Route path='/read' element={<Read/>} />
